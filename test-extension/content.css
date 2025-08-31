@@ -1,0 +1,13 @@
+.ai-reader-highlight {
+  background-color: #1a1a1a !important;
+  color: #ffffff !important;
+  padding: 2px 4px !important;
+  border-radius: 3px !important;
+  box-shadow: 0 0 0 2px #4f46e5 !important;
+  transition: all 0.3s ease !important;
+}
+
+.ai-reader-highlight * {
+  background-color: transparent !important;
+  color: inherit !important;
+}
