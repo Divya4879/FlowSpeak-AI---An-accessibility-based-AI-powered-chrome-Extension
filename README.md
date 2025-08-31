@@ -1,6 +1,27 @@
-# AI Accessibility Reader
+# FlowSpeak AI - An accessibility based AI powered chrome Extension
 
-Advanced AI-powered screen reader with intelligent content analysis, customizable voice options, site summaries, code explanations, and seamless navigation for AO3 and DEV.to.
+Advanced AI-powered screen reader with intelligent content analysis, customizable voice options, site summaries, code explanations, and seamless navigation, especially customized for AO3 and DEV.to sites
+
+Check it out here:-
+[Project Video Demo](https://youtu.be/AVEDAADYbec)
+
+---
+
+## Some snaphots of this extension:-
+
+<div align="center">
+
+<img width="537" height="993" alt="Screenshot 2025-08-31 222821" src="https://github.com/user-attachments/assets/3f281a5c-03fb-43d8-b985-5bc786309fc5" />
+
+<img width="510" height="946" alt="Screenshot 2025-08-31 222828" src="https://github.com/user-attachments/assets/af2e6b01-dd3e-4c5e-90ec-54f6b7a05dff" />
+
+<img width="564" height="935" alt="Screenshot 2025-08-31 222837" src="https://github.com/user-attachments/assets/64fe4fe2-7623-4a4d-ad8d-4948809afe09" />
+
+<img width="538" height="846" alt="Screenshot 2025-08-31 222853" src="https://github.com/user-attachments/assets/9ca21150-8281-4b72-939e-f47e1cf7b6bd" />
+
+</div>
+
+---
 
 ## 🚀 Local Installation
 
@@ -36,6 +57,8 @@ Advanced AI-powered screen reader with intelligent content analysis, customizabl
 3. **Click "Play"** to start reading
 4. **Use AI features** to explain text or summarize content
 
+---
+
 ## 🎧 Features
 
 ### Core Reading
@@ -43,7 +66,7 @@ Advanced AI-powered screen reader with intelligent content analysis, customizabl
 - **Smart Navigation**: Jump between headings, sections, chapters
 - **Speed Control**: Adjust reading speed (0.5x - 2.5x)
 - **Volume Control**: Customize audio volume
-- **Voice Options**: Choose gender (Male/Female) and accent preferences
+- **Voice Options**: Choose gender (Male/Female) and English accent preferences
 
 ### Voice Customization
 - **Gender Selection**: Male or Female voice options
@@ -58,13 +81,15 @@ Advanced AI-powered screen reader with intelligent content analysis, customizabl
 - **🤖 Explain Selected**: AI explains any selected text
 - **📝 Summarize Selected**: AI summarizes selected content
 - **📊 Site Summary**: Comprehensive AI analysis of entire page
-- **💻 Code Explanation**: Automatic AI analysis of code blocks
+- **💻 Code Explanation**: Automatic AI analysis of code blocks in Dev.to
 - **Rate Limit Handling**: Automatic retry for API limits
 
 ### Specialized Support
 - **📚 AO3**: Chapter navigation, story summaries
 - **💻 DEV.to**: Technical content optimization, code analysis
 - **🌐 Universal**: Works on all websites
+
+---
 
 ## 🎮 How to Use
 
@@ -92,6 +117,8 @@ Advanced AI-powered screen reader with intelligent content analysis, customizabl
 3. **Click "Site Summary"** for full page analysis
 4. **Code blocks** get automatic AI explanations
 
+---
+
 ## ⚙️ Settings
 
 ### Speech Settings
@@ -106,6 +133,8 @@ Advanced AI-powered screen reader with intelligent content analysis, customizabl
 - **API Key**: Your Groq API key for AI features
 - **Test Connection**: Verify API key works
 - **Model**: Uses llama-3.1-8b-instant (free tier)
+
+---
 
 ## 🔧 Troubleshooting
 
@@ -131,6 +160,8 @@ Advanced AI-powered screen reader with intelligent content analysis, customizabl
 - **Verify**: Browser has audio permissions
 - **Test**: Use "Test Speech" in settings
 
+---
+
 ## 📁 File Structure
 
 ```
@@ -149,12 +180,16 @@ test-extension/
 └── icon128.png            # Extension icon (128px)
 ```
 
+---
+
 ## 🔒 Privacy
 
 - **Local Storage**: API keys and voice settings stored locally in browser
 - **No Data Collection**: Extension doesn't collect personal data
 - **Secure API**: AI requests sent directly to Groq (not stored)
 - **Minimal Permissions**: Only accesses current tab content
+
+---
 
 ## 📝 Version
 
@@ -168,6 +203,8 @@ test-extension/
 - **Improved API Handling**: Better rate limit management
 - **Enhanced Voice Selection**: Intelligent voice matching
 
+---
+
 ## 🆘 Support
 
 If you encounter issues:
@@ -180,4 +217,3 @@ If you encounter issues:
 ---
 
 **Enjoy accessible web browsing with AI-powered assistance and customizable voices!** 🎉
-# FlowSpeak-AI---An-accessibility-based-AI-powered-chrome-Extension
